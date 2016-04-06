@@ -10,5 +10,6 @@
 #import <YUKitHeader.h>
 
 @interface AnimationTableViewCell : UITableViewCell
+@property (weak, nonatomic) IBOutlet UIImageView *imgView;
 
 @end

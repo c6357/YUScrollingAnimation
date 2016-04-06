@@ -56,8 +56,23 @@
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
 {
     AnimationTableViewCell *cell = [AnimationTableViewCell XIBCellFor:tableView];
+    
+    
+    CGPoint point = [self.tableView convertPoint:[self.tableView rectForRowAtIndexPath:indexPath].origin toView:self.view];
+    
+   
+//    LogPoint(point);
+    
     return cell;
 }
+
+
+-(void)scrollViewDidScroll:(UIScrollView *)scrollView{
+     LogPoint(self.tableView.contentOffset);
+    
+    
+}
+
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];

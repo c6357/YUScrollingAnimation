@@ -3,18 +3,34 @@
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
         <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
-        <tableViewCell contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" id="KGk-i7-Jjw" customClass="AnimationTableViewCell">
-            <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" rowHeight="163" id="KGk-i7-Jjw" customClass="AnimationTableViewCell">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="163"/>
             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
             <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
-                <rect key="frame" x="0.0" y="0.0" width="320" height="43"/>
+                <rect key="frame" x="0.0" y="0.0" width="320" height="162"/>
                 <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Zd4-lw-jft">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="162"/>
+                    </imageView>
+                </subviews>
                 <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                <constraints>
+                    <constraint firstItem="Zd4-lw-jft" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="topMargin" constant="-8" id="0uL-1h-Dj1"/>
+                    <constraint firstAttribute="bottomMargin" secondItem="Zd4-lw-jft" secondAttribute="bottom" constant="-8" id="79A-Qv-bgd"/>
+                    <constraint firstItem="Zd4-lw-jft" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leadingMargin" constant="-8" id="PgS-RV-MIP"/>
+                    <constraint firstAttribute="trailingMargin" secondItem="Zd4-lw-jft" secondAttribute="trailing" constant="-8" id="iU3-SC-Vv7"/>
+                </constraints>
             </tableViewCellContentView>
+            <connections>
+                <outlet property="imgView" destination="Zd4-lw-jft" id="ZYM-WN-JsJ"/>
+            </connections>
+            <point key="canvasLocation" x="305" y="432.5"/>
         </tableViewCell>
     </objects>
 </document>

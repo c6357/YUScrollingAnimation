@@ -15,6 +15,11 @@
 		1866D0C81CB5063000270319 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1866D0C71CB5063000270319 /* ViewController.m */; };
 		1866D0CC1CB50A0200270319 /* AnimationTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1866D0CA1CB50A0200270319 /* AnimationTableViewCell.m */; };
 		1866D0CD1CB50A0200270319 /* AnimationTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1866D0CB1CB50A0200270319 /* AnimationTableViewCell.xib */; };
+		1866D0D41CB5114500270319 /* 0.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1866D0CF1CB5114500270319 /* 0.jpg */; };
+		1866D0D51CB5114500270319 /* 1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1866D0D01CB5114500270319 /* 1.jpg */; };
+		1866D0D61CB5114500270319 /* 2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1866D0D11CB5114500270319 /* 2.jpg */; };
+		1866D0D71CB5114500270319 /* 3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1866D0D21CB5114500270319 /* 3.jpg */; };
+		1866D0D81CB5114500270319 /* 4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1866D0D31CB5114500270319 /* 4.jpg */; };
 		4D3200990E76CD5DEDE8EE3C /* libPods-YUScrollingAnimation.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7E6DCE0F0D9FC4A2CB929E38 /* libPods-YUScrollingAnimation.a */; };
 /* End PBXBuildFile section */
 
@@ -33,6 +38,11 @@
 		1866D0C91CB50A0200270319 /* AnimationTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AnimationTableViewCell.h; sourceTree = "<group>"; };
 		1866D0CA1CB50A0200270319 /* AnimationTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AnimationTableViewCell.m; sourceTree = "<group>"; };
 		1866D0CB1CB50A0200270319 /* AnimationTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AnimationTableViewCell.xib; sourceTree = "<group>"; };
+		1866D0CF1CB5114500270319 /* 0.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 0.jpg; sourceTree = "<group>"; };
+		1866D0D01CB5114500270319 /* 1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 1.jpg; sourceTree = "<group>"; };
+		1866D0D11CB5114500270319 /* 2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 2.jpg; sourceTree = "<group>"; };
+		1866D0D21CB5114500270319 /* 3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 3.jpg; sourceTree = "<group>"; };
+		1866D0D31CB5114500270319 /* 4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 4.jpg; sourceTree = "<group>"; };
 		4D025AA8ED45019CDC1A74B3 /* Pods-YUScrollingAnimation.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YUScrollingAnimation.release.xcconfig"; path = "Pods/Target Support Files/Pods-YUScrollingAnimation/Pods-YUScrollingAnimation.release.xcconfig"; sourceTree = "<group>"; };
 		7E6DCE0F0D9FC4A2CB929E38 /* libPods-YUScrollingAnimation.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-YUScrollingAnimation.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -70,6 +80,7 @@
 		1866D0AE1CB505B800270319 /* YUScrollingAnimation */ = {
 			isa = PBXGroup;
 			children = (
+				1866D0CE1CB5114500270319 /* img */,
 				1866D0B21CB505B800270319 /* AppDelegate.h */,
 				1866D0B31CB505B800270319 /* AppDelegate.m */,
 				1866D0C91CB50A0200270319 /* AnimationTableViewCell.h */,
@@ -92,6 +103,18 @@
 				1866D0B01CB505B800270319 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1866D0CE1CB5114500270319 /* img */ = {
+			isa = PBXGroup;
+			children = (
+				1866D0CF1CB5114500270319 /* 0.jpg */,
+				1866D0D01CB5114500270319 /* 1.jpg */,
+				1866D0D11CB5114500270319 /* 2.jpg */,
+				1866D0D21CB5114500270319 /* 3.jpg */,
+				1866D0D31CB5114500270319 /* 4.jpg */,
+			);
+			path = img;
 			sourceTree = "<group>";
 		};
 		7727ECE18B0B19A356BD7C13 /* Pods */ = {
@@ -170,10 +193,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1866D0D41CB5114500270319 /* 0.jpg in Resources */,
 				1866D0BF1CB505B800270319 /* LaunchScreen.storyboard in Resources */,
 				1866D0BC1CB505B800270319 /* Assets.xcassets in Resources */,
+				1866D0D51CB5114500270319 /* 1.jpg in Resources */,
 				1866D0CD1CB50A0200270319 /* AnimationTableViewCell.xib in Resources */,
 				1866D0BA1CB505B800270319 /* Main.storyboard in Resources */,
+				1866D0D81CB5114500270319 /* 4.jpg in Resources */,
+				1866D0D61CB5114500270319 /* 2.jpg in Resources */,
+				1866D0D71CB5114500270319 /* 3.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
