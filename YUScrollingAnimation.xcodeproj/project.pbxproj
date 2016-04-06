@@ -1,0 +1,377 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1866D0B11CB505B800270319 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1866D0B01CB505B800270319 /* main.m */; };
+		1866D0B41CB505B800270319 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1866D0B31CB505B800270319 /* AppDelegate.m */; };
+		1866D0BA1CB505B800270319 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1866D0B81CB505B800270319 /* Main.storyboard */; };
+		1866D0BC1CB505B800270319 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1866D0BB1CB505B800270319 /* Assets.xcassets */; };
+		1866D0BF1CB505B800270319 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1866D0BD1CB505B800270319 /* LaunchScreen.storyboard */; };
+		1866D0C81CB5063000270319 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1866D0C71CB5063000270319 /* ViewController.m */; };
+		1866D0CC1CB50A0200270319 /* AnimationTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1866D0CA1CB50A0200270319 /* AnimationTableViewCell.m */; };
+		1866D0CD1CB50A0200270319 /* AnimationTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1866D0CB1CB50A0200270319 /* AnimationTableViewCell.xib */; };
+		4D3200990E76CD5DEDE8EE3C /* libPods-YUScrollingAnimation.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7E6DCE0F0D9FC4A2CB929E38 /* libPods-YUScrollingAnimation.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		021119D66897B01E9A8965D6 /* Pods-YUScrollingAnimation.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YUScrollingAnimation.debug.xcconfig"; path = "Pods/Target Support Files/Pods-YUScrollingAnimation/Pods-YUScrollingAnimation.debug.xcconfig"; sourceTree = "<group>"; };
+		1866D0AC1CB505B800270319 /* YUScrollingAnimation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YUScrollingAnimation.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1866D0B01CB505B800270319 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1866D0B21CB505B800270319 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		1866D0B31CB505B800270319 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		1866D0B91CB505B800270319 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1866D0BB1CB505B800270319 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1866D0BE1CB505B800270319 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1866D0C01CB505B900270319 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1866D0C61CB5063000270319 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		1866D0C71CB5063000270319 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		1866D0C91CB50A0200270319 /* AnimationTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AnimationTableViewCell.h; sourceTree = "<group>"; };
+		1866D0CA1CB50A0200270319 /* AnimationTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AnimationTableViewCell.m; sourceTree = "<group>"; };
+		1866D0CB1CB50A0200270319 /* AnimationTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AnimationTableViewCell.xib; sourceTree = "<group>"; };
+		4D025AA8ED45019CDC1A74B3 /* Pods-YUScrollingAnimation.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YUScrollingAnimation.release.xcconfig"; path = "Pods/Target Support Files/Pods-YUScrollingAnimation/Pods-YUScrollingAnimation.release.xcconfig"; sourceTree = "<group>"; };
+		7E6DCE0F0D9FC4A2CB929E38 /* libPods-YUScrollingAnimation.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-YUScrollingAnimation.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1866D0A91CB505B800270319 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D3200990E76CD5DEDE8EE3C /* libPods-YUScrollingAnimation.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1866D0A31CB505B800270319 = {
+			isa = PBXGroup;
+			children = (
+				1866D0AE1CB505B800270319 /* YUScrollingAnimation */,
+				1866D0AD1CB505B800270319 /* Products */,
+				7727ECE18B0B19A356BD7C13 /* Pods */,
+				EADB6A0CBC903EB85E8EDB2E /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		1866D0AD1CB505B800270319 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1866D0AC1CB505B800270319 /* YUScrollingAnimation.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1866D0AE1CB505B800270319 /* YUScrollingAnimation */ = {
+			isa = PBXGroup;
+			children = (
+				1866D0B21CB505B800270319 /* AppDelegate.h */,
+				1866D0B31CB505B800270319 /* AppDelegate.m */,
+				1866D0C91CB50A0200270319 /* AnimationTableViewCell.h */,
+				1866D0CA1CB50A0200270319 /* AnimationTableViewCell.m */,
+				1866D0CB1CB50A0200270319 /* AnimationTableViewCell.xib */,
+				1866D0C61CB5063000270319 /* ViewController.h */,
+				1866D0C71CB5063000270319 /* ViewController.m */,
+				1866D0B81CB505B800270319 /* Main.storyboard */,
+				1866D0BB1CB505B800270319 /* Assets.xcassets */,
+				1866D0BD1CB505B800270319 /* LaunchScreen.storyboard */,
+				1866D0C01CB505B900270319 /* Info.plist */,
+				1866D0AF1CB505B800270319 /* Supporting Files */,
+			);
+			path = YUScrollingAnimation;
+			sourceTree = "<group>";
+		};
+		1866D0AF1CB505B800270319 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1866D0B01CB505B800270319 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7727ECE18B0B19A356BD7C13 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				021119D66897B01E9A8965D6 /* Pods-YUScrollingAnimation.debug.xcconfig */,
+				4D025AA8ED45019CDC1A74B3 /* Pods-YUScrollingAnimation.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		EADB6A0CBC903EB85E8EDB2E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7E6DCE0F0D9FC4A2CB929E38 /* libPods-YUScrollingAnimation.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1866D0AB1CB505B800270319 /* YUScrollingAnimation */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1866D0C31CB505B900270319 /* Build configuration list for PBXNativeTarget "YUScrollingAnimation" */;
+			buildPhases = (
+				D807370E388673C9883A143C /* Check Pods Manifest.lock */,
+				1866D0A81CB505B800270319 /* Sources */,
+				1866D0A91CB505B800270319 /* Frameworks */,
+				1866D0AA1CB505B800270319 /* Resources */,
+				1C76E7665C90B53BF49E3057 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YUScrollingAnimation;
+			productName = YUScrollingAnimation;
+			productReference = 1866D0AC1CB505B800270319 /* YUScrollingAnimation.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1866D0A41CB505B800270319 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = BruceYu;
+				TargetAttributes = {
+					1866D0AB1CB505B800270319 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+				};
+			};
+			buildConfigurationList = 1866D0A71CB505B800270319 /* Build configuration list for PBXProject "YUScrollingAnimation" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1866D0A31CB505B800270319;
+			productRefGroup = 1866D0AD1CB505B800270319 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1866D0AB1CB505B800270319 /* YUScrollingAnimation */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1866D0AA1CB505B800270319 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1866D0BF1CB505B800270319 /* LaunchScreen.storyboard in Resources */,
+				1866D0BC1CB505B800270319 /* Assets.xcassets in Resources */,
+				1866D0CD1CB50A0200270319 /* AnimationTableViewCell.xib in Resources */,
+				1866D0BA1CB505B800270319 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1C76E7665C90B53BF49E3057 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-YUScrollingAnimation/Pods-YUScrollingAnimation-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D807370E388673C9883A143C /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1866D0A81CB505B800270319 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1866D0C81CB5063000270319 /* ViewController.m in Sources */,
+				1866D0B41CB505B800270319 /* AppDelegate.m in Sources */,
+				1866D0CC1CB50A0200270319 /* AnimationTableViewCell.m in Sources */,
+				1866D0B11CB505B800270319 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		1866D0B81CB505B800270319 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1866D0B91CB505B800270319 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1866D0BD1CB505B800270319 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1866D0BE1CB505B800270319 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1866D0C11CB505B900270319 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		1866D0C21CB505B900270319 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1866D0C41CB505B900270319 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 021119D66897B01E9A8965D6 /* Pods-YUScrollingAnimation.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = YUScrollingAnimation/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = BruceYu.YUScrollingAnimation;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		1866D0C51CB505B900270319 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4D025AA8ED45019CDC1A74B3 /* Pods-YUScrollingAnimation.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = YUScrollingAnimation/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = BruceYu.YUScrollingAnimation;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1866D0A71CB505B800270319 /* Build configuration list for PBXProject "YUScrollingAnimation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1866D0C11CB505B900270319 /* Debug */,
+				1866D0C21CB505B900270319 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1866D0C31CB505B900270319 /* Build configuration list for PBXNativeTarget "YUScrollingAnimation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1866D0C41CB505B900270319 /* Debug */,
+				1866D0C51CB505B900270319 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1866D0A41CB505B800270319 /* Project object */;
+}

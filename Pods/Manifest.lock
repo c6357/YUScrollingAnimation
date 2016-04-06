@@ -1,0 +1,135 @@
+PODS:
+  - AFNetworking (2.5.4):
+    - AFNetworking/NSURLConnection (= 2.5.4)
+    - AFNetworking/NSURLSession (= 2.5.4)
+    - AFNetworking/Reachability (= 2.5.4)
+    - AFNetworking/Security (= 2.5.4)
+    - AFNetworking/Serialization (= 2.5.4)
+    - AFNetworking/UIKit (= 2.5.4)
+  - AFNetworking/NSURLConnection (2.5.4):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/NSURLSession (2.5.4):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (2.5.4)
+  - AFNetworking/Security (2.5.4)
+  - AFNetworking/Serialization (2.5.4)
+  - AFNetworking/UIKit (2.5.4):
+    - AFNetworking/NSURLConnection
+    - AFNetworking/NSURLSession
+  - Masonry (0.6.4)
+  - MJRefresh (2.2.1)
+  - YUKit (1.0.4):
+    - AFNetworking (~> 2.5.4)
+    - Masonry (~> 0.6.2)
+    - MJRefresh (~> 2.2.0)
+    - YUKit/base (= 1.0.4)
+    - YUKit/foundation (= 1.0.4)
+    - YUKit/header (= 1.0.4)
+    - YUKit/services (= 1.0.4)
+    - YUKit/uikit (= 1.0.4)
+  - YUKit/base (1.0.4):
+    - AFNetworking (~> 2.5.4)
+    - Masonry (~> 0.6.2)
+    - MJRefresh (~> 2.2.0)
+    - YUKit/base/NavigationController (= 1.0.4)
+    - YUKit/base/TableView (= 1.0.4)
+    - YUKit/base/View (= 1.0.4)
+    - YUKit/base/ViewController (= 1.0.4)
+    - YUKit/base/ViewModel (= 1.0.4)
+  - YUKit/base/NavigationController (1.0.4):
+    - AFNetworking (~> 2.5.4)
+    - Masonry (~> 0.6.2)
+    - MJRefresh (~> 2.2.0)
+  - YUKit/base/TableView (1.0.4):
+    - AFNetworking (~> 2.5.4)
+    - Masonry (~> 0.6.2)
+    - MJRefresh (~> 2.2.0)
+    - YUKit/base/ViewController
+    - YUKit/foundation
+    - YUKit/header
+    - YUKit/uikit
+  - YUKit/base/View (1.0.4):
+    - AFNetworking (~> 2.5.4)
+    - Masonry (~> 0.6.2)
+    - MJRefresh (~> 2.2.0)
+  - YUKit/base/ViewController (1.0.4):
+    - AFNetworking (~> 2.5.4)
+    - Masonry (~> 0.6.2)
+    - MJRefresh (~> 2.2.0)
+    - YUKit/foundation
+    - YUKit/header
+    - YUKit/uikit
+  - YUKit/base/ViewModel (1.0.4):
+    - AFNetworking (~> 2.5.4)
+    - Masonry (~> 0.6.2)
+    - MJRefresh (~> 2.2.0)
+  - YUKit/foundation (1.0.4):
+    - AFNetworking (~> 2.5.4)
+    - Masonry (~> 0.6.2)
+    - MJRefresh (~> 2.2.0)
+    - YUKit/foundation/category (= 1.0.4)
+    - YUKit/foundation/lib (= 1.0.4)
+  - YUKit/foundation/category (1.0.4):
+    - AFNetworking (~> 2.5.4)
+    - Masonry (~> 0.6.2)
+    - MJRefresh (~> 2.2.0)
+    - YUKit/foundation/lib
+    - YUKit/header
+  - YUKit/foundation/lib (1.0.4):
+    - AFNetworking (~> 2.5.4)
+    - Masonry (~> 0.6.2)
+    - MJRefresh (~> 2.2.0)
+    - YUKit/header
+    - YUKit/services/Reachability
+  - YUKit/header (1.0.4):
+    - AFNetworking (~> 2.5.4)
+    - Masonry (~> 0.6.2)
+    - MJRefresh (~> 2.2.0)
+  - YUKit/services (1.0.4):
+    - AFNetworking (~> 2.5.4)
+    - Masonry (~> 0.6.2)
+    - MJRefresh (~> 2.2.0)
+    - YUKit/services/NSJson (= 1.0.4)
+    - YUKit/services/Reachability (= 1.0.4)
+  - YUKit/services/NSJson (1.0.4):
+    - AFNetworking (~> 2.5.4)
+    - Masonry (~> 0.6.2)
+    - MJRefresh (~> 2.2.0)
+  - YUKit/services/Reachability (1.0.4):
+    - AFNetworking (~> 2.5.4)
+    - Masonry (~> 0.6.2)
+    - MJRefresh (~> 2.2.0)
+  - YUKit/uikit (1.0.4):
+    - AFNetworking (~> 2.5.4)
+    - Masonry (~> 0.6.2)
+    - MJRefresh (~> 2.2.0)
+    - YUKit/uikit/category (= 1.0.4)
+    - YUKit/uikit/lib (= 1.0.4)
+  - YUKit/uikit/category (1.0.4):
+    - AFNetworking (~> 2.5.4)
+    - Masonry (~> 0.6.2)
+    - MJRefresh (~> 2.2.0)
+    - YUKit/foundation
+    - YUKit/header
+  - YUKit/uikit/lib (1.0.4):
+    - AFNetworking (~> 2.5.4)
+    - Masonry (~> 0.6.2)
+    - MJRefresh (~> 2.2.0)
+    - YUKit/foundation
+    - YUKit/header
+
+DEPENDENCIES:
+  - Masonry (~> 0.6.2)
+  - YUKit (~> 1.0.4)
+
+SPEC CHECKSUMS:
+  AFNetworking: 05edc0ac4c4c8cf57bcf4b84be5b0744b6d8e71e
+  Masonry: 281802d04d787ea2973179ee8bcb50500579ede2
+  MJRefresh: c3fa0387e8e97a11a9666639d2f815607edd1c2f
+  YUKit: 3b41c0263aa453418cbe4f72568d9094a08ee65a
+
+COCOAPODS: 0.38.2

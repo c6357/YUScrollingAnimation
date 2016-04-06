@@ -1,0 +1,2 @@
+YUKIT_FRAMEWORK_SEARCH_PATHS = "$(PODS_ROOT)/YUKit/YUKit/framework"
+YUKIT_OTHER_LDFLAGS = -l"sqlite3" -framework "Foundation" -framework "QuartzCore" -framework "UIKit" -framework "YUDBFramework"
