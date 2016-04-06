@@ -70,6 +70,9 @@
 -(void)scrollViewDidScroll:(UIScrollView *)scrollView{
      LogPoint(self.tableView.contentOffset);
     
+    NSArray *cellArry = [self.tableView visibleCells];
+    
+    NSLog(@"cellArry %@",cellArry);
     
 }
 
