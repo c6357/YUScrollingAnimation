@@ -68,12 +68,44 @@
 
 
 -(void)scrollViewDidScroll:(UIScrollView *)scrollView{
-     LogPoint(self.tableView.contentOffset);
-    
+//     LogPoint(self.tableView.contentOffset);
     NSArray *cellArry = [self.tableView visibleCells];
+    UITableViewCell *cellFirst = [cellArry firstObject];
+    UITableViewCell *cellLast  = [cellArry lastObject];
     
-    NSLog(@"cellArry %@",cellArry);
+    for (UITableViewCell *cell in cellArry) {
+        if (![cell isEqual:cellFirst] && ![cell isEqual:cellLast]) {
+            CGRect frame = cell.contentView.frame;
+            frame.origin.y = 0;
+            cell.contentView.frame = frame;
+        }
+    }
     
+    
+    
+    CGPoint point = [self.tableView convertPoint:[self.tableView rectForRowAtIndexPath:[self.tableView indexPathForCell:cellFirst]].origin toView:self.view];
+    
+    
+    CGRect frame = cellFirst.contentView.frame;
+    frame.origin.y = -point.y;
+    cellFirst.contentView.frame = frame;
+    [self.view sendSubviewToBack:cellFirst];
+    [cellFirst layoutIfNeeded];
+    
+    
+    frame = cellLast.contentView.frame;
+    frame.origin.y = - frame.size.height - point.y;
+    cellLast.contentView.frame = frame;
+//    [self.tableView sendSubviewToBack:cellLast];
+    
+    
+//    [self.tableView bringSubviewToFront:cellLast];
+    
+    LogPoint(point);
+    
+//    LogPoint(cell.frame.origin);
+    
+//    NSLog(@"cellArry %@",cellArry);
 }
 
 
