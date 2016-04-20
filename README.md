@@ -5,9 +5,9 @@ YUScrollingAnimation
 =================
     pod search YUKit  
   
-    pod 'YUKit', '~> 1.1.6'
+    pod 'YUKit', '~> 1.2.0'
 
-    pod 'YUKit', '~> 1.1.6', :inhibit_warnings => true
+    pod 'YUKit', '~> 1.2.0', :inhibit_warnings => true
 
 
  
