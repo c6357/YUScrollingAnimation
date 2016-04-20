@@ -1,8 +1,8 @@
 //
 //  AnimationTableViewCell.h
-//  YUScrollingAnimation
+//  https://github.com/c6357/YUScrollingAnimation
 //
-//  Created by HME on 16/4/6.
+//  Created by BruceYu on 16/4/6.
 //  Copyright © 2016年 BruceYu. All rights reserved.
 //
 
@@ -10,6 +10,7 @@
 #import <YUKitHeader.h>
 
 @interface AnimationTableViewCell : UITableViewCell
-@property (weak, nonatomic) IBOutlet UIImageView *imgView;
+
+-(void)updateData:(id)data indexPath:(NSIndexPath*)indexPath;
 
 @end

@@ -20,7 +20,6 @@
 		1866D0CC1CB50A0200270319 /* AnimationTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1866D0CA1CB50A0200270319 /* AnimationTableViewCell.m */; };
 		1866D0CD1CB50A0200270319 /* AnimationTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1866D0CB1CB50A0200270319 /* AnimationTableViewCell.xib */; };
 		1866D0D51CB5114500270319 /* 1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1866D0D01CB5114500270319 /* 1.jpg */; };
-		18972E9B1CB643B5001B94A7 /* YUScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 18972E9A1CB643B5001B94A7 /* YUScrollView.m */; };
 		4D3200990E76CD5DEDE8EE3C /* libPods-YUScrollingAnimation.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7E6DCE0F0D9FC4A2CB929E38 /* libPods-YUScrollingAnimation.a */; };
 /* End PBXBuildFile section */
 
@@ -44,8 +43,6 @@
 		1866D0CA1CB50A0200270319 /* AnimationTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AnimationTableViewCell.m; sourceTree = "<group>"; };
 		1866D0CB1CB50A0200270319 /* AnimationTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AnimationTableViewCell.xib; sourceTree = "<group>"; };
 		1866D0D01CB5114500270319 /* 1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 1.jpg; sourceTree = "<group>"; };
-		18972E991CB643B5001B94A7 /* YUScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YUScrollView.h; sourceTree = "<group>"; };
-		18972E9A1CB643B5001B94A7 /* YUScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YUScrollView.m; sourceTree = "<group>"; };
 		4D025AA8ED45019CDC1A74B3 /* Pods-YUScrollingAnimation.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YUScrollingAnimation.release.xcconfig"; path = "Pods/Target Support Files/Pods-YUScrollingAnimation/Pods-YUScrollingAnimation.release.xcconfig"; sourceTree = "<group>"; };
 		7E6DCE0F0D9FC4A2CB929E38 /* libPods-YUScrollingAnimation.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-YUScrollingAnimation.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -83,7 +80,6 @@
 		1866D0AE1CB505B800270319 /* YUScrollingAnimation */ = {
 			isa = PBXGroup;
 			children = (
-				18972E981CB642D8001B94A7 /* YUScrollingAnimation */,
 				1866D0CE1CB5114500270319 /* img */,
 				1866D0B21CB505B800270319 /* AppDelegate.h */,
 				1866D0B31CB505B800270319 /* AppDelegate.m */,
@@ -119,15 +115,6 @@
 				182D4F701CB5FAB500E03025 /* 4.jpg */,
 			);
 			path = img;
-			sourceTree = "<group>";
-		};
-		18972E981CB642D8001B94A7 /* YUScrollingAnimation */ = {
-			isa = PBXGroup;
-			children = (
-				18972E991CB643B5001B94A7 /* YUScrollView.h */,
-				18972E9A1CB643B5001B94A7 /* YUScrollView.m */,
-			);
-			path = YUScrollingAnimation;
 			sourceTree = "<group>";
 		};
 		7727ECE18B0B19A356BD7C13 /* Pods */ = {
@@ -258,7 +245,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				18972E9B1CB643B5001B94A7 /* YUScrollView.m in Sources */,
 				1866D0C81CB5063000270319 /* ViewController.m in Sources */,
 				1866D0B41CB505B800270319 /* AppDelegate.m in Sources */,
 				1866D0CC1CB50A0200270319 /* AnimationTableViewCell.m in Sources */,

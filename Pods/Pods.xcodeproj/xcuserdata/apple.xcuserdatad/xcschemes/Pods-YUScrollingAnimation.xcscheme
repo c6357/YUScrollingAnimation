@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "64956276CB8D525611B48F16"
+               BlueprintIdentifier = "7FFFF648FB8D9E8253C9B8DF"
                BuildableName = "libPods-YUScrollingAnimation.a"
                BlueprintName = "Pods-YUScrollingAnimation"
                ReferencedContainer = "container:Pods.xcodeproj">

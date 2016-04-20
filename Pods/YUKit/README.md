@@ -1,4 +1,6 @@
-
+![image](https://github.com/c6357/YUKit/blob/master/sample.gif)
+</br>
+![image](https://github.com/c6357/YUKit/blob/master/sample2.gif)
 YUKit
 =================
 * YUKit for iOS
@@ -90,10 +92,14 @@ framework
 
 * 使用Cocoapods管理
 
-###Podfile
-    pod 'YUKit', '~> 1.0.0'
+    pod search YUKit  
+  
+![image](https://github.com/c6357/YUKit/blob/master/install.png)
 
-    pod 'YUKit', '~> 1.0.0', :inhibit_warnings => true
+###Podfile
+    pod 'YUKit', '~> 1.1.6'
+
+    pod 'YUKit', '~> 1.1.6', :inhibit_warnings => true
 
 ###dependency
     pod 'MJRefresh', '~> 2.2.0'
@@ -102,7 +108,7 @@ framework
 
     pod 'AFNetworking' , '~>2.5.4'
 
-    pod 'BlocksKit', '~> 2.2.5'
+    #pod 'BlocksKit', '~> 2.2.5'
 
 
 系统要求

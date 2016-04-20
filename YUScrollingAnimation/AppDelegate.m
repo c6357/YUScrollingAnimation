@@ -1,13 +1,12 @@
 //
 //  AppDelegate.m
-//  YUScrollingAnimation
+//  https://github.com/c6357/YUScrollingAnimation
 //
 //  Created by BruceYu on 16/4/6.
 //  Copyright © 2016年 BruceYu. All rights reserved.
 //
 
 #import "AppDelegate.h"
-
 @interface AppDelegate ()
 
 @end
@@ -17,6 +16,7 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    usleep(2016040.1);
     return YES;
 }
 

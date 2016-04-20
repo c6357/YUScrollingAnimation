@@ -24,6 +24,11 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
+		<key>YUChineseSorting.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>YUKit.xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -32,12 +37,12 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>192ECC979C0899DB70EACDD8E2722629</key>
+		<key>038764D1791418F45AEF02F986C484AA</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>49F57E029CC45B3E3662147300517219</key>
+		<key>4CEDE892EA8469F927BD1FF53B5389F1</key>
 		<dict>
 			<key>primary</key>
 			<true/>
@@ -47,12 +52,17 @@
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>85ACDC744178145F63602CBDDB2A58E8</key>
+		<key>CB1AB37E982F096E850C3F49B8300909</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>A5385D482B7E5D4B11CAF0FB2EB4BDEB</key>
+		<key>F966E44D5F67CCB47ADB4541FBB09D45</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>FF200C42850DD4E6E4EE09543F4F6646</key>
 		<dict>
 			<key>primary</key>
 			<true/>
