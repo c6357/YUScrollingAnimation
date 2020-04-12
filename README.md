@@ -1,6 +1,6 @@
 ![image](https://github.com/c6357/YUScrollingAnimation/blob/master/sample.gif)
 </br>
-![image](https://github.com/c6357/YUScrollingAnimation/blob/master/sample2.gif)
+<img src=https://github.com/c6357/YUScrollingAnimation/blob/master/sample2.gif/>
 YUScrollingAnimation
 =================
     pod search YUKit  
